@@ -31,7 +31,7 @@ h2
   font-size: 5em;
   text-align: center;
   text-transform: uppercase;
-  line-height: 4em;
+  line-height: 1em;
 }
 
 h3 
@@ -72,7 +72,7 @@ h5
   width: 1200px;
   margin: 0 auto;
   display: flex;
-justify-content: space-evenly;
+  justify-content: space-evenly;
 }
  
 .nav-bar-ul li {
@@ -89,21 +89,24 @@ justify-content: space-evenly;
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
+  position: relative;
+  padding-top: 50px;
 }
 
 .quote
 {
-  font-size: 2em;
+  font-weight: bolder;
   position: absolute;
-  left: 10%;
-  bottom: 100px;
+  left: 5%;
+  bottom: 50px;
+  line-height: 1.5;
 }
 
 #general-information
 
 #general-information {
   display: flex;
-justify-content:space-evenly;
+  justify-content:space-evenly;
 }
 
 .container {
@@ -179,7 +182,7 @@ height: 180px;
 #schedule
 
 {
-  
+
 }
 
 
